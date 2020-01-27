@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 55px
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: blue;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+.main{
+	max-width: 1200px
+	margin:auto;
+}
+.title{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color:white;
+	font-size: 45px;
+}
+.button{
+	position:absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid yellow;
+	padding: 10px 30px;
+	text-decoration: none;
+	color:orange;
+	font-size: 30px;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: white;
+	color: blue;
+}
+.socialmedia
+{
+	position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.footer:hover
+{
+	text-align: center;
+	color:green;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 13px 0px 0px 0px;
+}
